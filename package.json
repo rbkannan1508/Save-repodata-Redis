@@ -1,0 +1,19 @@
+{
+  "name": "sample-redis-application",
+  "version": "1.0.0",
+  "description": "Sample Redis Application",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server"
+  },
+  "author": "Bharathi Kannan",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^16.1.0",
+    "node-fetch": "^2.6.1",
+    "redis": "^3.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
